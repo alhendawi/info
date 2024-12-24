@@ -227,23 +227,3 @@ nav {
         display: block;
     }
 }
-
-
-
-/* Default state of the nav links (hidden on mobile) */
-.nav-links {
-    display: none;
-}
-
-/* When the 'show' class is added, display the nav links */
-.nav-links.show {
-    display: flex;
-    flex-direction: column;
-    background-color: #153e40;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-}
