@@ -9,11 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
         navToggle.addEventListener('click', () => {
             navLinks.classList.toggle('show');
             navOverlay.classList.toggle('show');
-            // Toggle hamburger icon to cross shape
             navToggle.classList.toggle('active');
         });
 
-        // Close the menu if overlay is clicked
         navOverlay.addEventListener('click', () => {
             navLinks.classList.remove('show');
             navOverlay.classList.remove('show');
@@ -21,4 +19,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
